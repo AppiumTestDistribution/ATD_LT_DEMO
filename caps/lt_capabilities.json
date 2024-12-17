@@ -28,6 +28,16 @@
                 "platformVersion": "13",
                 "deviceName": "Pixel 7",
                 "platform": "android"
+              },
+              {
+                "platformVersion": "13",
+                "deviceName": "Pixel 8",
+                "platform": "android"
+              },
+              {
+                "platformVersion": "13",
+                "deviceName": "Pixel 9",
+                "platform": "android"
               }
             ]
           }

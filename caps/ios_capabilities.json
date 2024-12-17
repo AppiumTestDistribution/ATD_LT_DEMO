@@ -1,0 +1,39 @@
+{
+    "iOS": {
+      "platformName": "iOS",
+      "appium:automationName": "XCUITest",
+      "appium:isRealMobile": true,
+      "appium:app": "lt://APP1016025291734348377145342",
+      "appium:build": "ATDDevs [iOS]",
+      "appium:project": "Appium Device Farm with ATD [iOS]",
+      "lt:options": {
+        "w3c": false
+      }
+    },
+    "serverConfig": {
+      "server": {
+        "port": 31337,
+        "use-plugins": [
+          "device-farm"
+        ],
+        "plugin": {
+          "device-farm": {
+            "platform": "iOS",
+            "cloud":
+            {
+              "cloudName": "lambdatest",
+              "url": "https://mobile-hub.lambdatest.com",
+              "devices": [
+                {
+                  "platformVersion": "14",
+                  "deviceName": "iPhone.*",
+                  "platform": "iOS"
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "appiumServerPath": "./node_modules/appium/build/lib/main.js"
+  }
