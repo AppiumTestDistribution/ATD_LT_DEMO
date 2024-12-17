@@ -10,13 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "appium": "^2.13.1"
-  },
-  "devDependencies": {
-    "vite": "^4.5.0",
-    "@appium/docutils": "^0.4.11",
-    "appium-device-farm": "9.4.7",
-    "appium-uiautomator2-driver": "^3.2.0",
-    "appium-xcuitest-driver": "^7.15.1"
+    "appium": "^2.13.1",
+    "appium-device-farm": "^9.4.14"
   }
 }
